@@ -1,51 +1,55 @@
 inherited frmListagemCliente: TfrmListagemCliente
-  BorderStyle = bsSizeToolWin
   Caption = 'Listagem de cliente'
-  ClientHeight = 389
-  ClientWidth = 900
   Position = poScreenCenter
   OnShow = FormShow
-  ExplicitWidth = 916
-  ExplicitHeight = 428
+  ExplicitWidth = 650
+  ExplicitHeight = 450
   PixelsPerInch = 96
   TextHeight = 13
   inherited Panel1: TPanel
-    Width = 900
-    ExplicitWidth = 900
+    ExplicitWidth = 910
     inherited btAdicionar: TSpeedButton
       OnClick = btAdicionarClick
     end
     inherited Label1: TLabel
-      Left = 583
-      Top = 5
-      ExplicitLeft = 583
-      ExplicitTop = 5
+      Left = 352
+      Top = 17
+      Width = 102
+      ExplicitLeft = 352
+      ExplicitTop = 17
+      ExplicitWidth = 102
     end
     inherited btAlterar: TSpeedButton
       OnClick = btAlterarClick
     end
     inherited edtPesquisar: TEdit
-      Left = 705
+      Left = 458
+      Top = 20
       Width = 185
+      Height = 19
       CharCase = ecUpperCase
       OnChange = edtPesquisarChange
-      ExplicitLeft = 705
+      ExplicitLeft = 458
+      ExplicitTop = 20
       ExplicitWidth = 185
+      ExplicitHeight = 19
     end
   end
   object Panel2: TPanel
     Left = 0
-    Top = 41
-    Width = 900
-    Height = 348
+    Top = 57
+    Width = 644
+    Height = 364
     Align = alClient
     Caption = 'Panel2'
     TabOrder = 1
+    ExplicitWidth = 910
+    ExplicitHeight = 342
     object DBGrid1: TDBGrid
       Left = 1
       Top = 1
-      Width = 898
-      Height = 346
+      Width = 642
+      Height = 362
       Align = alClient
       DataSource = dsCliente
       TabOrder = 0

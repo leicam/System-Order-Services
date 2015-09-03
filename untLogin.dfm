@@ -37,8 +37,9 @@ object frmLogin: TfrmLogin
   object Image1: TImage
     Left = 0
     Top = 0
-    Width = 280
-    Height = 185
+    Width = 281
+    Height = 190
+    Align = alTop
     Picture.Data = {
       0954506E67496D61676589504E470D0A1A0A0000000D49484452000005210000
       03BE0806000000FB6BD0260000000467414D410000B18E7CFB519300000A3969

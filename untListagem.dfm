@@ -5,8 +5,8 @@ object frmListagem: TfrmListagem
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'Listagem'
-  ClientHeight = 244
-  ClientWidth = 569
+  ClientHeight = 421
+  ClientWidth = 644
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -22,17 +22,17 @@ object frmListagem: TfrmListagem
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 569
-    Height = 41
+    Width = 644
+    Height = 57
     Align = alTop
     TabOrder = 0
+    ExplicitWidth = 569
     object btAdicionar: TSpeedButton
       Left = 0
       Top = 0
       Width = 65
-      Height = 41
-      Hint = 'Adicionar'
-      Caption = 'F5'
+      Height = 57
+      Caption = 'F5 Adicionar'
       Glyph.Data = {
         B60D0000424DB60D000000000000360000002800000030000000180000000100
         180000000000800D000000000000000000000000000000000000FFFFFFFFFFFF
@@ -144,15 +144,15 @@ object frmListagem: TfrmListagem
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFF9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E
         9E9EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Layout = blGlyphTop
       NumGlyphs = 2
     end
     object btRemover: TSpeedButton
       Left = 71
       Top = 0
       Width = 65
-      Height = 41
-      Hint = 'Remover'
-      Caption = 'F8'
+      Height = 57
+      Caption = 'F8 Remover'
       Enabled = False
       Glyph.Data = {
         B60D0000424DB60D000000000000360000002800000030000000180000000100
@@ -265,28 +265,28 @@ object frmListagem: TfrmListagem
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Layout = blGlyphTop
       NumGlyphs = 2
     end
     object Label1: TLabel
-      Left = 308
-      Top = 8
-      Width = 114
-      Height = 24
+      Left = 409
+      Top = 11
+      Width = 100
+      Height = 23
       Caption = 'Pesquisar: '
       Font.Charset = ANSI_CHARSET
       Font.Color = clWindowText
-      Font.Height = -21
-      Font.Name = 'Arial'
-      Font.Style = [fsBold]
+      Font.Height = -19
+      Font.Name = 'Verdana'
+      Font.Style = []
       ParentFont = False
     end
     object btAlterar: TSpeedButton
       Left = 142
       Top = 0
       Width = 65
-      Height = 41
-      Hint = 'Alterar'
-      Caption = 'F12'
+      Height = 57
+      Caption = 'F12 Alterar'
       Glyph.Data = {
         B60D0000424DB60D000000000000360000002800000030000000180000000100
         180000000000800D000000000000000000000000000000000000FFFFFFFFFFFF
@@ -398,11 +398,12 @@ object frmListagem: TfrmListagem
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCFCFCFDFDFDFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Layout = blGlyphTop
       NumGlyphs = 2
     end
     object edtPesquisar: TEdit
-      Left = 424
-      Top = 8
+      Left = 515
+      Top = 13
       Width = 129
       Height = 21
       TabOrder = 0

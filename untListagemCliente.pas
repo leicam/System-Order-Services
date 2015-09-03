@@ -50,7 +50,7 @@ implementation
 {$R *.dfm}
 
 uses untDm, untCadastroCliente, untOrdemServico, untPrincipal,
-  untRptContasReceber, untRptOrdemServico;
+  untRptContasReceber, untRptOrdemServico, untOrdServ2;
 
 procedure TfrmListagemCliente.btAdicionarClick(Sender: TObject);
 begin
@@ -83,10 +83,16 @@ begin
     frmOrdemServico.edtDsCliente.Text := DBGrid1.Columns[1].Field.Text;
     frmListagemCliente.Close;
     end
-  else if frmRptContasReceber.vOperacao = 1 then
+  else if frmRptOrdemServico.vOperacao = 1 then
   begin
-    frmRptContasReceber.edtCdCliente.Text := DBGrid1.Columns[0].Field.Text;
-    frmRptContasReceber.edtDsCliente.Text := DBGrid1.Columns[1].Field.Text;
+    frmRptOrdemServico.edtCdCliente.Text := DBGrid1.Columns[0].Field.Text;
+    frmRptOrdemServico.edtDsCliente.Text := DBGrid1.Columns[1].Field.Text;
+    frmListagemCliente.Close;
+    end
+  else if frmOrdServ2.vOperacao = 1 then
+  begin
+    frmOrdServ2.edtCdCliente.Text := DBGrid1.Columns[0].Field.Text;
+    frmOrdServ2.edtDsCliente.Text := DBGrid1.Columns[1].Field.Text;
     frmListagemCliente.Close;
     end
   else if frmRptOrdemServico.vOperacao = 1 then

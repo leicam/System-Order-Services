@@ -930,32 +930,32 @@ inherited frmOrdemServico: TfrmOrdemServico
     TabOrder = 13
   end
   object edtCdMaterial: TEdit
-    Left = 114
-    Top = 192
+    Left = 116
+    Top = 193
     Width = 54
     Height = 21
     TabOrder = 4
     OnExit = edtCdMaterialExit
   end
   object edtDsMaterial: TEdit
-    Left = 174
-    Top = 192
+    Left = 176
+    Top = 193
     Width = 732
     Height = 21
     Enabled = False
     TabOrder = 14
   end
   object edtQuantMaterial: TEdit
-    Left = 128
-    Top = 217
+    Left = 130
+    Top = 218
     Width = 54
     Height = 21
     TabOrder = 5
     OnExit = edtQuantMaterialExit
   end
   object dbgMaterial: TDBGrid
-    Left = 0
-    Top = 247
+    Left = 2
+    Top = 248
     Width = 1114
     Height = 108
     DataSource = dsMaterialOrdServico
@@ -1034,7 +1034,7 @@ inherited frmOrdemServico: TfrmOrdemServico
     OnExit = edtQuantServicoExit
   end
   object dbgServico: TDBGrid
-    Left = 0
+    Left = 1
     Top = 452
     Width = 1114
     Height = 138

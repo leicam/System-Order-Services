@@ -45,8 +45,7 @@ object dm: Tdm
       'WaitOnLocks=True'
       'IsolationLevel=ReadCommitted'
       'Trim Char=False'
-      'Database=D:\TCC 2015\BANCO\BANCO.FDB')
-    Connected = True
+      'Database=C:\BANCO VIDRACARIA\BANCO.FDB')
     Left = 16
     Top = 8
   end

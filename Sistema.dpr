@@ -37,7 +37,8 @@ uses
   untRptContasPagar in 'untRptContasPagar.pas' {frmRptContasPagar},
   untRptOrdemServico in 'untRptOrdemServico.pas' {frmRptOrdemServico},
   untBackup in 'untBackup.pas' {frmBackup},
-  untDespesa in 'untDespesa.pas' {frmDespesa};
+  untDespesa in 'untDespesa.pas' {frmDespesa},
+  untOrdServ2 in 'untOrdServ2.pas' {frmOrdServ2};
 
 {$R *.res}
 
@@ -80,5 +81,6 @@ begin
   Application.CreateForm(TfrmRptOrdemServico, frmRptOrdemServico);
   Application.CreateForm(TfrmBackup, frmBackup);
   Application.CreateForm(TfrmDespesa, frmDespesa);
+  Application.CreateForm(TfrmOrdServ2, frmOrdServ2);
   Application.Run;
 end.

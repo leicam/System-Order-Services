@@ -23,16 +23,15 @@ object frmCadastro: TfrmCadastro
     Left = 0
     Top = 0
     Width = 694
-    Height = 41
+    Height = 57
     Align = alTop
     TabOrder = 0
     object btSalvar: TSpeedButton
       Left = 71
       Top = 0
       Width = 65
-      Height = 41
-      Hint = 'Salvar'
-      Caption = 'F3'
+      Height = 57
+      Caption = 'F3 Salvar'
       Glyph.Data = {
         B60D0000424DB60D000000000000360000002800000030000000180000000100
         180000000000800D000000000000000000000000000000000000FFFFFFFFFFFF
@@ -144,15 +143,15 @@ object frmCadastro: TfrmCadastro
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Layout = blGlyphTop
       NumGlyphs = 2
     end
     object btLimpar: TSpeedButton
       Left = 0
       Top = 0
       Width = 65
-      Height = 41
-      Hint = 'Limpar'
-      Caption = 'F2'
+      Height = 57
+      Caption = 'F2 Limpar'
       Glyph.Data = {
         B60D0000424DB60D000000000000360000002800000030000000180000000100
         180000000000800D000000000000000000000000000000000000FFFFFFFFFFFF
@@ -264,15 +263,15 @@ object frmCadastro: TfrmCadastro
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Layout = blGlyphTop
       NumGlyphs = 2
     end
     object btCancelar: TSpeedButton
       Left = 142
       Top = 0
       Width = 65
-      Height = 41
-      Hint = 'Sair'
-      Caption = 'F11'
+      Height = 57
+      Caption = 'F11 Sair'
       Glyph.Data = {
         B60D0000424DB60D000000000000360000002800000030000000180000000100
         180000000000800D000000000000000000000000000000000000FFFFFFFFFFFF
@@ -384,6 +383,7 @@ object frmCadastro: TfrmCadastro
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
         FFFFFFFFFFFFFFFFFFFFFFFFFF939393ACACACBABABACACACADADADAE9E9E9F8
         F8F8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+      Layout = blGlyphTop
       NumGlyphs = 2
     end
   end
